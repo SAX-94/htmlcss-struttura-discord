@@ -18,10 +18,21 @@ header {
     padding-bottom: 18px;
 }
 
+footer {
+    background-color: #23272a;
+    min-height: 550px;
+}
+
+#fifth {
+    background-color: #228b22;
+    min-height: 580px;
+    border: 2px dashed black;
+}
+
 .header-container {
     background-color: #daa520;
     min-height: 38px;
-    min-width: 70%;
+    min-width: 960px;
     display: flex;
     align-items: stretch;
 }
@@ -62,18 +73,19 @@ main > .section:first-child {
     border-bottom: 3px solid #add8e6;
 }
 
+.first-container {
+    background-color: #ee82ee;
+    min-height: 240px;
+    min-width: 750px;
+    border: 2px dashed black;
+    margin: 0 auto;
+}
+
 .container {
     margin: 0 auto;
     width: 100%;
     max-width: 960px;
     min-width: 300px;    
-}
-
-.container#first {
-    background-color: #ee82ee;
-    min-height: 240px;
-    width: 75%;
-    border: 2px dashed black;
 }
 
 .box {
@@ -96,6 +108,7 @@ main > .section:first-child {
     flex-grow: 1;
 }
 
-main > .section:nth-child(3) {
+main > .section:nth-child(3),
+main > .section:nth-child(5) {
     background-color: #d3d3d3;
 }
