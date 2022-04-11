@@ -3,3 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: #add8e6;
+    min-height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header_container {
+    background-color: #daa520;
+    min-height: 38px;
+    min-width: 70%;
+    display: flex;
+    align-items: stretch;
+}
+
+.float {
+    float:left;
+}
+
+.zona_logo, .zona_login {
+    width: 20%;
+}
+
+.navbar {
+    width: 60%;    
+    justify-content: center;
+}
+
+.navbar > div {
+    margin-left: 7px;
+}
+
+.header_container > div {
+    border: 2px dashed black;
+    display: flex;
+    align-items: flex-end;
+    padding: 4px 3px 4px;
+}
+
+.zona_login {
+    justify-content: flex-end;
+}
