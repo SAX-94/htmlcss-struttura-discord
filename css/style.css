@@ -29,6 +29,11 @@ footer {
     border: 2px dashed black;
 }
 
+#boxcol {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 .header-container {
     background-color: #daa520;
     min-height: 38px;
@@ -111,4 +116,25 @@ main > .section:first-child {
 main > .section:nth-child(3),
 main > .section:nth-child(5) {
     background-color: #d3d3d3;
+}
+
+.maxicol, .fourcol {
+    min-height: 400px;    
+}
+
+.maxicol {
+    background-color: #f08080;
+    flex-grow: 1;
+    border: 2px dashed black;
+}
+
+.fourcol {
+    background-color: #20b2aa;
+    display: flex;
+    flex-grow: 2.7;    
+}
+
+.tinycol {
+    width: 25%;
+    border: 2px dashed white;
 }
