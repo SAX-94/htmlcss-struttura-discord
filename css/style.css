@@ -5,7 +5,6 @@
 }
 
 body {
-    max-width: 1250px;
     margin: 0 auto;
 }
 
@@ -19,7 +18,7 @@ header {
     padding-bottom: 18px;
 }
 
-.header_container {
+.header-container {
     background-color: #daa520;
     min-height: 38px;
     min-width: 70%;
@@ -27,7 +26,7 @@ header {
     align-items: stretch;
 }
 
-.zona_logo, .zona_login {
+.zona-logo, .zona-login {
     width: 20%;
 }
 
@@ -40,14 +39,14 @@ header {
     margin-left: 7px;
 }
 
-.header_container > div {
+.header-container > div {
     border: 2px dashed black;
     display: flex;
     align-items: flex-end;
     padding: 4px 3px 4px;
 }
 
-.zona_login {
+.zona-login {
     justify-content: flex-end;
 }
 
@@ -57,7 +56,7 @@ header {
     align-items: center;
 }
 
-main .section:first-child {
+main > .section:first-child {
     background-color: #00008b;
     min-height: 360px;
     border-bottom: 3px solid #add8e6;
@@ -65,12 +64,38 @@ main .section:first-child {
 
 .container {
     margin: 0 auto;
+    width: 100%;
     max-width: 960px;
-    min-width: 500px;
-    border: 2px dashed black;
+    min-width: 300px;    
 }
 
 .container#first {
     background-color: #ee82ee;
-    min-height: 270px;    
+    min-height: 240px;
+    width: 75%;
+    border: 2px dashed black;
+}
+
+.box {
+    display: flex;    
+    min-height: 310px;
+    border: 2px dashed black;
+}
+
+.col {
+    padding: 1rem;
+}
+
+.col-large  {
+    background-color: #1e90ff;
+    flex-grow: 2;
+}
+
+.col-small {
+    background-color: #ffc0cb;
+    flex-grow: 1;
+}
+
+main > .section:nth-child(3) {
+    background-color: #d3d3d3;
 }
